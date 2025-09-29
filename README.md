@@ -1,5 +1,5 @@
 # Dockerize react app
----
+
 
 ```bash
 npm create vite@latest react-docker
@@ -24,3 +24,14 @@ docker login
 docker tag react-docker <username>/react-docker
 docker push <username>/react-docker
 ```
+
+---
+
+- docker compose method
+
+```bash
+docker init
+docker compose up
+```
+
+update compose.yaml file if necessary.
